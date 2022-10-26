@@ -53,18 +53,14 @@ header{
     background-color: #000;
 }
 
+/* about rules */
 #about{
     background-color: var(--green);
-    /* DEBUG */
-    height: 400px;
-    margin-top: 50px;
+    color: #fff;
 }
 
-#about .col{
-    /* DEBUG */
-    background-color: aquamarine;
-    height: 200px;
-    border: 1px solid white;
+#about .ms_divider .ms_line{
+    background-color: #fff;
 }
 
 #location{
