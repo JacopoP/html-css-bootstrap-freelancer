@@ -124,36 +124,60 @@
             <button type="button" class="btn btn-light bg-transparent text-white"><i class="fa-solid fa-download"></i> Download</button>
         </section>
 
-        <section id="contact-me">
+        <section id="contact_me" class="text-center pt-4 pb-3">
             <div class="container">
                 <h2>CONTACT ME</h2>
-                <hr>
-                Name
-                <hr>
-                Email Address
-                <hr>
-                Phone Number
-                <hr>
-                Message
-                <br><br><br>
-                <hr>
-                <a href="#">Send</a>
+                <div class="ms_divider">
+                    <span class="ms_line"></span>
+                    &starf;
+                    <span class="ms_line"></span>
+                </div>
+                <form class="text-start">
+                    <div class="mb-3">
+                      <label for="InputName" class="form-label">Name</label>
+                      <input type="text" class="form-control required" id="InputName">
+                    </div>
+                    <div class="mb-3">
+                      <label for="InputEmail required" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="InputEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="InputNumber" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control required" id="InputNumber">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                      </div>
+                    <button type="submit" class="btn mb-3">Submit</button>
+                  </form>
             </div>
         </section>
 
-        <section id="location" class="text-center">
-            <div class="container">
-                <div class="row justify-content-around gy-5">
-                    <div class="col-11 col-md-3"></div>
-                    <div class="col-11 col-md-3"></div>
-                    <div class="col-11 col-md-3"></div>
+        <section id="generality" class="text-center fs-4">
+            <div class="container-md">
+                <div class="row justify-content-around gx-3 pt-5 pb-2">
+                    <div class="col-11 col-lg-4 mb-4">
+                        <strong>LOCATION</strong><br>2215 John Daniel Drive Clark, MO 54243
+                    </div>
+                    <div class="col-11 col-lg-4 mb-4">
+                        <strong>AROUND THE WEB</strong><br>
+                        <span class="social"><i class="fa-brands fa-facebook-f"></i></span> &nbsp;
+                        <span class="social"><i class="fa-brands fa-google-plus-g"></i></span> &nbsp;
+                        <span class="social"><i class="fa-brands fa-twitter"></i></span> &nbsp;
+                        <span class="social"><i class="fa-brands fa-linkedin-in"></i></span>
+                    </div>
+                    <div class="col-11 col-lg-4 mb-4">
+                        <strong>ABOUT FREELANCER</strong><br>
+                        Freelance is a free to use, open source Bootstrap theme created by <span class="link-success">Start Bootstrap</span>
+                    </div>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer class="text-center">
+    <footer class="text-center pt-4 pb-5">
         Copyright &copy; Your Website 2022
     </footer>
 

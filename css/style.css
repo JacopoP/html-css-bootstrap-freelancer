@@ -63,18 +63,45 @@ header{
     background-color: #fff;
 }
 
-#location{
+/* contact-me rules */
+#contact_me .ms_divider .ms_line{
+    background-color: #000;
+}
+
+#contact_me .form-control{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+#contact_me button{
+    background-color: var(--green);
+    color: #fff;
+}
+
+/* generality rules */
+#generality{
     background-color: #3a546d;
+    color: #fff;
 }
 
-#location [class*="col-"]{
-    /* DEBUG */
-    background-color: red;
-    height: 250px;
+/* generality rules */
+#generality .social{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
+#generality .social:hover{
+    cursor: pointer;
+}
+
+/* footer rules */
 footer{
     background-color: var(--grey);
-    /* DEBUG */
-    height: 100px;
+    color: #fff;
 }
